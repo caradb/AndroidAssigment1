@@ -43,7 +43,7 @@
 
     <Button
         android:id="@+id/plus_button"
-        android:text="@string/up_label"
+        android:text="@string/countUp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -56,7 +56,7 @@
 
     <Button
         android:id="@+id/minus_button"
-        android:text="@string/down_label"
+        android:text="@string/countDown"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
 
