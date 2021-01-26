@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/toastButton"
+        android:id="@+id/toast_button"
 
         android:text="@string/toast_label"
         android:layout_width="0dp"
@@ -35,14 +35,14 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_gravity="center_horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/upButton"
+        app:layout_constraintBottom_toTopOf="@+id/plus_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/toastButton"
+        app:layout_constraintTop_toBottomOf="@id/toast_button"
         />
 
     <Button
-        android:id="@+id/upButton"
+        android:id="@+id/plus_button"
         android:text="@string/up_label"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -51,11 +51,11 @@
         android:layout_marginEnd="10dp"
         android:layout_gravity="center_horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/downButton"
+        app:layout_constraintBottom_toTopOf="@+id/minus_button"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/downButton"
+        android:id="@+id/minus_button"
         android:text="@string/down_label"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
